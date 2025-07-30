@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erick Wambugu Portfolio</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <main>
+    <!--HEADER / NAVIGATION-->
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <nav class="navbar">
+            <div class="logo">Erick Wambugu</div>
+            <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#interests"><i class="fas fa-heart"></i> Interests</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p>
+        I'm Erick Wambugu, a passionate meteorologist, teacher leader, and tech enthusiast dedicated to bridging literacy and climate awareness gaps in underserved communities. I serve at Ngwata Primary and Junior School in Mlolongo, Machakos County under the Teach for Kenya fellowship.
+      </p>
+      <p>
+        As the founder of Read Connect, I lead a literacy initiative empowering students with reading skills through digital tools and play-based learning. I'm also skilled in weather data analysis and forecasting from my time at the Kenya Meteorological Department.
+      </p>
+      <p>
+        My interests lie at the intersection of science, education, and technology. I'm currently advancing my software development skills through the Power Learn Project. I'm committed to SDG 4 (Quality Education) and SDG 13 (Climate Action), striving to empower communities through knowledge.
+      </p>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="reveal">
+      <h2>Educational Background</h2>
+
+      <article class="edu-item">
+        <h3>South Eastern Kenya University</h3>
+        <p><strong>Degree:</strong> BSc in Meteorology - First Class Honours (2018 - 2022)</p>
+        <p><strong>Activities:</strong> SEKU Handball Team</p>
+        <p>This achievement reflects my dedication and skills in climate science, weather forecasting, and environmental analysis. It equips me with the expertise to solve climate-related challenges and contribute to sustainable development.</p>
+      </article>
+
+      <article class="edu-item">
+        <h3>Kianjoya Secondary School</h3>
+        <p><strong>KCSE Grade:</strong> 56 Points (B-), 2014 - 2017</p>
+        <p><strong>Activities:</strong> Participated in Boys Handball Team</p>
+      </article>
+
+      <a class="cv-download" href="./assets/ErickWambuguCV.pdf" download>📄 Download My CV</a>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section id="interests" class="reveal">
+      <h2>Interests</h2>
+      <ul>
+        <li>🌍 Climate change education and environmental sustainability</li>
+        <li>💻 Web development and building impactful digital products</li>
+        <li>📚 Literacy advocacy and educational equity for underserved communities</li>
+        <li>🛰️ Weather and climate data analysis</li>
+        <li>🚀 Exploring emerging tech trends (AI, cloud, open-source tools)</li>
+        <li>🤝 Volunteering and community-driven development</li>
+      </ul>
+    </section>
+
+        <!-- PROJECTS SECTION -->
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+
+      <article class="project-card">
+        <h3>🌐 Personal Portfolio Website</h3>
+        <p>A responsive website built using HTML and CSS to showcase my skills, education, and projects. Created as part of the Power Learn Project Hackathon Challenge.</p>
+        <a href="https://erickpython.github.io/erickPortifolio/" target="_blank">Visit My Website</a>
+      </article>
+
+      <article class="project-card">
+        <h3>📊 Weather Data Dashboard (In Progress)</h3>
+        <p>An interactive dashboard for visualizing real-time weather data using Python, APIs, and data visualization libraries. Aimed at improving climate awareness.</p>
+        <a href="https://github.com/Erickpython/Weather_Data_Dashboard" target="_blank">Visit The Repository</a>
+      </article>
+
+      <article class="project-card">
+        <h3>📚 Read Connect Literacy Platform</h3>
+        <p>A community-centered literacy initiative offering a digital library and interactive learning materials to improve reading skills in underserved schools.</p>
+        <a href="https://erickpython.github.io/readconnect/" target="_blank">Visit Read Connect</a>
+      </article>
+    </section>
+
+
+        <!-- CONTACT SECTION -->
+    <section id="contact" class="reveal">
+      <h2>Contact Me</h2>
+      <p>If you'd like to connect, collaborate, or just say hello, feel free to reach out using the form below!</p>
+      <form action="https://formspree.io/f/xblkdwyj" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <p>© 2025 Erick Wambugu. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://github.com/Erickpython" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/erick-wambugu-425a15161" target="_blank">LinkedIn</a>
+            <a href="mailto:erick.wambugu23@gmail.com">Email</a>
+        </div>
+    </footer>
+  </main>
+</body>
+</html>
