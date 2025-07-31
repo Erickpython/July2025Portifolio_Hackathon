@@ -193,6 +193,46 @@ nav a:hover {
     background-color: #aa4627;
 }
 
+/* PROGRAMMING LANGUAGES SECTION */
+#languages {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#languages h2 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.languages-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+}
+
+.languages-list li {
+  background-color: #e8f4ff;
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.languages-list i {
+  color: #0077cc;
+  font-size: 18px;
+}
+
+
 /* INTERESTS SECTION */
 #interests {
     max-width: 800px;
