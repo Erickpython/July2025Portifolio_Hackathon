@@ -11,6 +11,44 @@ main {
   padding: 20px;
 }
 
+/* Header navigation */
+header {
+  background-color: #0077cc;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #eb0ee0;
+}
+
+
 /* ABOUT SECTION */
 #about {
   max-width: 800px;
@@ -72,7 +110,7 @@ main {
 }
 
 .cv-download:hover {
-  background-color: #0056b3;
+  background-color: #aa4627;
 }
 
 /* INTERESTS SECTION */
@@ -210,33 +248,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Header navigation */
-header {
-  background-color: #0077cc;
-  padding: 10px 0;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #f0f8ff;
-}
 
 /* Footer styles */
 footer {
