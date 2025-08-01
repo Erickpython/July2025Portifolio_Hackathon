@@ -4,8 +4,7 @@ Welcome to my personal portfolio website, built as part of the **Power Learn Pro
 
 ## 🌍 Live Demo
 
-🔗 [Visit the Live Website](https://erickpython.github.io/erickPortifolio/) or (erickwabugu.netlify.app/)
-
+🔗 [Visit Website: GITHUB LINK](https://erickpython.github.io/erickPortifolio/) or [Visit Website: NETLIFY LINK](https://erickwambugu.netlify.app/)
 ---
 
 ## 📌 Project Purpose
@@ -99,5 +98,3 @@ portfolio/
 
 > “Empowering Minds Through Literacy, Science, and Technology” – *Erick Wambugu*
 ```
-
----
