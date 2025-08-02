@@ -17,7 +17,9 @@ header {
     padding: 10px 0;
     text-align: center;
     border-radius: 10px;
-    
+     position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo img {
@@ -89,9 +91,6 @@ nav a:hover {
     justify-content: space-between;
     background-color: #0077cc;
     padding: 15px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     color: white;
 }
 
