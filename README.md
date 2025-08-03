@@ -4,7 +4,8 @@ Welcome to my personal portfolio website, built as part of the **Power Learn Pro
 
 ## 🌍 Live Demo
 
-🔗 [Visit Website: GITHUB LINK](https://erickpython.github.io/erickPortifolio/) and [Visit Website: NETLIFY LINK](https://erickwambugu.netlify.app/)
+🔗 [Visit GITHUB Repository:]((https://github.com/Erickpython/July2025Portifolio_Hackathon)
+🔗 [Visit Website: NETLIFY LINK](https://erickwambugu.netlify.app/)
 ---
 
 ## 📌 Project Purpose
