@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website, built as part of the **Power Learn Project Hackathon 1 (July 2025 Cohort)**. This portfolio reflects my journey, skills, and projects in the fields of **education**, **meteorology**, and **web development**.
 
 ## 🌍 Live Demo
-
+---
 🔗 [Visit GITHUB Repository:](https://github.com/Erickpython/July2025Portifolio_Hackathon)
 
 🔗 [Visit Website: NETLIFY LINK](https://erickwambugu.netlify.app/)
